@@ -4,11 +4,11 @@
              xmlns:local="clr-namespace:smile"
              x:Class="smile.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <ContentPage.Content>
+        <StackLayout x:Name="MainStack" Orientation="Vertical" HorizontalOptions="FillAndExpand"
+                    WidthRequest="1000">
 
+
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
